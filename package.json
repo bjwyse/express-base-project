@@ -1,9 +1,9 @@
 {
-    "name": "noobjs"
-  , "description": "A demo app in nodejs illustrating the use of express, jade and mongoose"
+    "name": "baseproject"
+  , "description": "An Express base project with user authentication using MongoDB included."
   , "version": "3.0.0"
   , "private": false
-  , "author": "Madhusudhan Srinivasa <madhums8@gmail.com> (http://madhums.github.com)"
+  , "author": "Brendan Wyse <bjwyse@gmail.com>"
   , "engines": {
         "node": "0.10.x"
       , "npm":  "1.2.x"
