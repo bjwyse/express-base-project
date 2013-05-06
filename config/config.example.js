@@ -14,11 +14,11 @@ var path = require('path')
 
 module.exports = {
   development: {
-    db: 'mongodb://localhost/noobjs_dev',
+    db: 'mongodb://localhost/baseproject_dev',
     root: rootPath,
     notifier: notifier,
     app: {
-      name: 'Nodejs Express Mongoose Demo'
+      name: 'Express Base Project'
     },
     facebook: {
       clientID: "APP_ID",
@@ -42,11 +42,11 @@ module.exports = {
     },
   },
   test: {
-    db: 'mongodb://localhost/noobjs_test',
+    db: 'mongodb://localhost/baseproject_test',
     root: rootPath,
     notifier: notifier,
     app: {
-      name: 'Nodejs Express Mongoose Demo'
+      name: 'Express Base Project'
     },
     facebook: {
       clientID: "APP_ID",
